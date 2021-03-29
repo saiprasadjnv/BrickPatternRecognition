@@ -1,6 +1,7 @@
 This project implements a Machine Learning model based on CNN to detect brick patterns in images and classify them into 3 different brick patterns. 
 
-Training the model:
+**Training the model:**
+
 To train the model with new dataset, import the "train" module and invoke the train method as follows:
 
 from train import binaryClassification, trainData, testData, extract_features, SubClassModel, train
@@ -11,7 +12,8 @@ classifier1.pt
 classsifier2.pt
 
 
-Test Model: 
+**Test Model**: 
+
 To test the model, import the "test" module and invoke the "test" method as follows: 
 
 from test import binaryClassification, trainData, testData, extract_features, SubClassModel, test
